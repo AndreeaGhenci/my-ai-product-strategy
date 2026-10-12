@@ -210,4 +210,37 @@
 - **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
+**Thesis (1 sentence):**
+
+We propose to help mid-market legal teams reduce contract review from four hours to 15 minutes of AI-assisted triage, with lawyers retaining final approval, creating a faster and more scalable contract-review business.
+
+**The case:**
+
+1. **Why now:** Legal teams face pressure to accelerate contract turnaround without proportionally increasing headcount. AI-assisted review creates an opportunity to reduce repetitive analysis while retaining professional oversight. However, the strategy does not yet establish what changed in the last 6–12 months, whether customers will pay for the improvement, or why this investment must happen now rather than later. These are material gaps in the timing case.
+
+2. **What's defensible:** Our proposed advantage is a proprietary library of 50,000 reviewed contracts, strengthened by firm-specific corrections and precedents (M2). The intended switching cost is the six months of accumulated customer-specific knowledge that competitors cannot immediately replicate. This is a credible direction for differentiation, but not yet a proven moat. We must demonstrate that customers permit their corrections to be used, that feedback measurably improves accuracy, and that accumulated precedent creates meaningful retention advantages. The data flywheel score, competitive positioning and vendor portability remain unvalidated.
+
+3. **The economics:** **72% target gross margin**, supported by a proposed $0.12 inference cost per contract and pricing of $500/month plus $2 per contract (M3). Using smaller models for routine clauses and more capable models for exceptions is intended to contain costs. However, inference cost alone does not establish gross margin: infrastructure, customer onboarding, human review, support and exception rates must be included. Break-even volume and margins under high-complexity workloads have not been demonstrated. The 72% figure is therefore a target, not an investment-grade forecast.
+
+**The risks:**
+
+1. **Trust / failure modes:** The critical failure is an incorrect review that misses a financially significant clause and leads a customer to approve a damaging agreement. Our proposed reliability contract (M4) includes a 500-contract labeled evaluation dataset, regression testing, green/yellow/red confidence indicators and mandatory human review of red-flagged clauses. Contracts above $50,000 cannot be automatically approved. However, no measured false-negative rate, adversarial coverage or production reliability target has been supplied. These must be established before broader deployment.
+
+2. **Scale / governance:** At 10x usage, exception handling, review workloads, model costs and regulatory oversight could grow faster than revenue. Our proposed controls (M5) include quarterly legal reviews of model changes, approval boundaries and audits of unauthorized AI usage. The correction feedback loop could improve performance over time, but it also introduces data-permission, confidentiality and model-quality risks. We need evidence that the operating model remains economically viable and auditable at scale.
+
+3. **Competitive:** The decisive threat is an incumbent legal software provider offering comparable contract-review accuracy inside an existing customer workflow, eliminating our speed or switching advantage. The strategy currently lacks a quantified competitive kill threshold. Before committing to expansion, we must define the minimum differentiation in accuracy, workflow adoption and customer retention required to justify continuing investment.
+
+**The ask:**
+
+We are requesting **1.2M in funding, three engineers and one product manager over six months**, with investment released against measurable evidence rather than delivery activity alone.
+
+- **H1 — Ship (0–4 weeks):** Establish baseline review time, validate the prototype against representative contracts and measure accuracy, exception rates and cost per review. Produce the first evidence of customer value.
+- **H2 — Validate (1–3 months):** Test the end-to-end workflow with pilot legal teams, demonstrate measurable review-time reduction, assess customer willingness to pay and validate the economics under realistic workloads.
+- **H3 — Explore (3–6 months):** Expand firm-specific precedent learning and controlled automation only if H2 demonstrates acceptable reliability, commercial demand and sustainable unit economics.
+
+These are proposed milestones, not an approved roadmap. The original H1/H2/H3 initiative tables contain no committed deliverables, owners, metrics or confidence assessments.
+
+**Portfolio trade-off:** Funding this initiative means deferring another investment of comparable resource demand. The specific initiative to pause has not been identified. Leadership should not approve the full allocation until that opportunity cost is explicit.
+
+**Decision requested:** Approve the strategic direction and a gated investment plan, subject to validation of the economics, reliability thresholds, roadmap milestones and named portfolio trade-off.
 
